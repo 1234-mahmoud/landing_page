@@ -1,6 +1,7 @@
 import './App.css';
 import Clients from './components/Clients';
 import Community from './components/Community';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Marketing from './components/Marketing';
 import PixelGrade from './components/PixelGrade';
@@ -18,6 +19,7 @@ function App() {
      <Statistics/>
      <Question/>
      <Marketing/>
+     <Footer/>
     </div>
   );
 }

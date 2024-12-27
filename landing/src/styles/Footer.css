@@ -1,0 +1,126 @@
+.footer{
+    margin: 50px 0;
+}
+
+.footer h1{
+width: 400px;
+text-align: center;
+margin: auto;
+font-size:2.5rem;
+font-weight: 600;
+}
+
+.footer button{
+    border:none;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--main-color_1);
+    width: 150px;
+    height: 50px;
+    display: block;
+    margin:30px auto;
+}
+
+.footer .container{
+    background-color: rgb(38, 50, 56);
+    color: white;
+   display: flex;
+   justify-content: space-between;
+   /* align-items: center; */
+    gap:30px;
+    padding: 50px 80px;
+}
+
+.footer .container .footer_contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .container .footer_contact .footer_logo{
+    margin-top:5px;
+}
+
+.footer .container .footer_contact .footer_logo img{
+   
+}
+
+.footer .container .footer_contact .footer_logo h1{
+   margin-left: -110px;
+}
+
+.footer .container .footer_contact p:nth-of-type(1){
+    margin-bottom: 0;
+}
+
+.footer .container .footer_contact p:nth-of-type(2){
+    margin-top: 5px;
+}
+
+.footer .container .footer_contact .footer_social_links{
+display: flex;
+gap:15px
+}
+
+.footer .container .footer_contact .footer_social_links a img{
+    
+}
+.footer .container .footer_info{
+display: flex;
+justify-content: space-between;
+/* align-items: center; */
+gap: 70px;
+}
+
+.footer .container .footer_info .footer_com,
+.footer .container .footer_info .footer_sup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .container .footer_info .footer_com h3,
+.footer .container .footer_info .footer_sup h3{
+    font-weight: 500;
+}
+
+.footer .container .footer_info .footer_com a,
+.footer .container .footer_info .footer_sup a{
+    color: white;
+    font-weight: 300;
+}
+
+
+.footer .container .footer_info .footer_mail{
+
+}
+
+.footer .container .footer_info .footer_mail h3{
+    
+}
+
+.footer .container .footer_info .footer_mail .input_mail{
+    background-color: rgb(81, 91, 96);
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .container .footer_info .footer_mail .input_mail input{
+    background-color: transparent;
+    border: none;
+    color: rgb(238, 237, 237);
+}
+
+.footer .container .footer_info .footer_mail .input_mail input:focus{
+outline: none;
+}
+
+::placeholder{
+    color: rgb(219, 219, 219);
+}
+
+.footer .container .footer_info .footer_mail .input_mail img{
+    
+}
