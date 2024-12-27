@@ -1,0 +1,48 @@
+.marketing{
+
+}
+
+.marketing h1{
+text-align: center;
+}
+
+.marketing p{
+    width: 628px;
+    text-align: center;
+    margin: auto;
+}
+
+.marketing .container{
+    margin: 50px auto;
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(250px , 1fr));
+gap: 50px;
+}
+
+.marketing .container .market_car{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color_2);
+    padding: 20px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.192);
+}
+
+.marketing .container .market_car p{
+    width: 220px;
+}
+
+.marketing .container .market_car .mark_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.marketing .container .market_car .mark_link a{
+    font-size: 1.3rem;
+    color: var(--main-color_1);
+}

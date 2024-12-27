@@ -1,0 +1,40 @@
+.question{
+margin: 100px 0;
+}
+
+.question .container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+}
+
+.question .container .ques_img{
+    
+}
+.question .container .ques_img img{
+
+} 
+.question .container .ques_info{
+    
+}
+
+.question .container .ques_info h1{
+    width: 550px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.question .container .ques_info p{
+    
+}
+
+.question .container .ques_info button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--main-color_1);
+margin-top: 20px;
+}
