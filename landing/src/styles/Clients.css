@@ -1,0 +1,30 @@
+.clients{
+
+}
+.clients .container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.clients .container h1{
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+
+.clients .container p{
+    margin-top: 0;
+}
+
+.clients .container .clients_logo{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+margin-top: 50px;
+}
+
+.clients .container .clients_logo img{
+    
+}

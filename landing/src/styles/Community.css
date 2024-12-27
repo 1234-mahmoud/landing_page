@@ -1,0 +1,43 @@
+.community{
+/* background-color: cornsilk; */
+margin: 100px 0;
+}
+
+
+.community h1{
+text-align: center;
+max-width:500px;
+margin: auto;
+}
+
+.community p{
+    text-align: center;
+
+}
+
+.community .container{
+    margin-top: 50px;
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+gap:50px;
+}
+
+.community .container .com_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.community .container .com_info img{
+
+}
+
+.community .container .com_info h1{
+    margin-bottom: 0;
+    width: 200px;
+}
+
+.community .container .com_info p{
+    
+}

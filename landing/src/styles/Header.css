@@ -1,0 +1,57 @@
+.header {
+  height: 50px;
+}
+
+.header .container {
+  background-color: rgb(245, 247, 250);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .container .h_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.header .container .h_logo h1 {
+  font-weight: 600;
+}
+
+.header .container .h_links ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.header .container .h_links ul li {
+}
+
+.header .container .h_links ul li a {
+  color: black;
+}
+
+.header .container .h_btns {
+  display: flex;
+  gap: 20px;
+}
+
+.header .container .h_btns button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+.header .container .h_btns button:nth-of-type(1) {
+  color: var(--main-color_1);
+}
+
+.header .container .h_btns button:nth-of-type(2) {
+  background-color: var(--main-color_1);
+  color: white;
+}
