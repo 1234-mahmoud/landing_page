@@ -24,7 +24,11 @@ align-items: center;
 width: 100%;
 margin-top: 50px;
 }
-
+@media (max-width:767px) {
+    .clients .container .clients_logo{
+        flex-wrap: wrap;
+    }
+}
 .clients .container .clients_logo img{
     
 }

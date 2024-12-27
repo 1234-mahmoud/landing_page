@@ -1,10 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../styles/Header.css'
 import logo from '../assets/Icon.svg'
+import list from '../assets/list.svg'
+import close from '../assets/close.svg'
 export default function Header() {
+    const [show,setShow] = useState(false);
+    const showsidebar = ()=>{
+        setShow(true)
+    }
+
+    const hidesidebar = ()=>{
+        setShow(false)
+    }
   return (
     <div className='header'>
-      <div className="container">
+<img src={list} alt="" className='list' onClick={showsidebar}/>
+      <div className={`container ${show?'show':'hide'}`}>
+        <img src={close} alt="" className='close' onClick={hidesidebar}/>
         <div className="h_logo">
             <img src={logo} alt="" />
             <h1>Nexcent</h1>

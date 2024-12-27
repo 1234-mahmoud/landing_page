@@ -12,6 +12,12 @@ text-align: center;
     margin: auto;
 }
 
+@media (max-width:767px) {
+    .marketing p{
+        width:250px;
+    }
+}
+
 .marketing .container{
     margin: 50px auto;
 display: grid;

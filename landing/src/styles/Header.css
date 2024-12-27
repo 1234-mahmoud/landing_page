@@ -2,13 +2,46 @@
   height: 50px;
 }
 
+.header .list,
+.container .close{
+  width: 30px;
+  display: none;
+}
+
+@media (max-width:991px){
+  .header{
+    background-color: var(--main-color_2);
+ 
+  }
+  .header .list,
+  .container .close{
+    display: block;
+    cursor: pointer;
+  }
+  .header .list{
+    margin: 10px;
+  }
+
+  .container .close{
+    margin: 10px 0 0 0;
+  }
+  .header .container .h_logo{
+    margin-top: -20px;
+  }
+}
+
+
+
 .header .container {
   background-color: var(--main-color_2);
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: .5s ease-in-out;
 }
+
+
 
 .header .container .h_logo {
   display: flex;
@@ -54,4 +87,44 @@
 .header .container .h_btns button:nth-of-type(2) {
   background-color: var(--main-color_1);
   color: white;
+}
+
+@media (max-width:991px){
+  .header .container{
+display: none;
+  }
+.show{
+  display: flex !important;
+ flex-direction: column;
+ height: 100%;
+ width: 250px !important;
+ z-index: 20 !important;
+ position: fixed;
+ right: 0;
+ top: 0;
+ transform: translateX(0);
+}
+
+.hide{
+  display: flex !important;
+ flex-direction: column;
+ height: 100%;
+ width: 0 !important;
+ z-index: 20 !important;
+ position: fixed;
+ right: 0;
+ top: 0;
+ transform: translateX(200px);
+
+}
+
+.header .container .h_links ul {
+  flex-direction: column;
+  z-index:20;
+}
+
+.header .container .h_btns{
+  flex-direction: column;
+}
+
 }

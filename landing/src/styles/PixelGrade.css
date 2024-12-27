@@ -9,10 +9,23 @@ margin: 100px 0;
     gap: 20px;
 }
 
+@media (max-width:767px) {
+    .pixelGrade .container{
+        flex-direction: column;
+    }
+}
+
 .pixelGrade .container .pix_img{
     
 }
 .pixelGrade .container .pix_img img{
+    
+}
+
+@media (max-width:767px){
+    .pixelGrade .container .pix_img img{
+    width: 100%;
+    }
     
 }
 
