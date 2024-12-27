@@ -2,6 +2,8 @@ import './App.css';
 import Clients from './components/Clients';
 import Community from './components/Community';
 import Header from './components/Header';
+import PixelGrade from './components/PixelGrade';
+import Statistics from './components/Statistics';
 import MySlider from './Slider/MySlider';
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
      <MySlider/>
      <Clients/>
      <Community/>
+     <PixelGrade/>
+     <Statistics/>
     </div>
   );
 }

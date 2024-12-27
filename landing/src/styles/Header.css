@@ -3,7 +3,7 @@
 }
 
 .header .container {
-  background-color: rgb(245, 247, 250);
+  background-color: var(--main-color_2);
 
   display: flex;
   justify-content: space-between;

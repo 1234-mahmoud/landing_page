@@ -1,0 +1,41 @@
+.pixelGrade{
+margin: 100px 0;
+}
+
+.pixelGrade .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.pixelGrade .container .pix_img{
+    
+}
+.pixelGrade .container .pix_img img{
+    
+}
+
+.pixelGrade .container .pixel_info{
+    
+}
+
+.pixelGrade .container .pixel_info h1{
+    font-size: 2rem;
+    font-weight:600;
+    margin-top: 0;
+}
+
+.pixelGrade .container .pixel_info p{
+    
+}
+
+.pixelGrade .container .pixel_info button{
+    border:none;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: var(--main-color_1);
+    color: white;
+    margin-top: 20px;
+}
